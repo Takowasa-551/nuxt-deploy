@@ -48,14 +48,14 @@ export default {
     '@nuxtjs/proxy'
   ],
 
-  proxy: {
-    '/api': {
-      target: 'http://localhost:3000/',
-      // pathRewrite: {
-      //   '^/api' : '/api/v1'
-      // }
-    }
-  },
+  // proxy: {
+  //   '/api': {
+  //     target: 'http://localhost:3000/',
+  //     pathRewrite: {
+  //       '^/api' : '/api/v1'
+  //     }
+  //   }
+  // },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
